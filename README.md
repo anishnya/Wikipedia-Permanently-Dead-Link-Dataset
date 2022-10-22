@@ -3,6 +3,7 @@ This repository contains the dataset for 'Characterizing “Permanently Dead" Li
 
 This is the following structure of the data. 
 
+```
 {
     "url": <string>,
     "article_url": <string>,
@@ -13,10 +14,12 @@ This is the following structure of the data.
     "copy_before_marked_dead": [<string>, <string>],
     "copy_after_marked_dead": [<string>, <string>]
 }
-
+```
 For archived copy data, this is the following format. 
 
-[Archiveed Copy Date, Archived Copy Status Code]
+```
+[Archived Copy Date, Archived Copy Status Code]
+```
 
 For all dates, they are in the following format: YYYY-MM-DDTHH:MM:SS+00:00. Packages such as arrow-py, can automatically parse dates in this format. 
 
